@@ -12,3 +12,5 @@ Screenshot:
 Changes
 
 1. Changed the title of all the html files to Everything Tech
+2. Added 2 rows of products on the top and bottom on the home page and product page
+3. 
