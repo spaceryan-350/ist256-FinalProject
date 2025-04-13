@@ -13,4 +13,5 @@ Changes
 
 1. Changed the title of all the html files to Everything Tech
 2. Added 2 rows of products on the top and bottom on the home page and product page
-3. 
+3. Changed text to keyboard, mouse, and webcam for second row on the home page and product page
+4. 
