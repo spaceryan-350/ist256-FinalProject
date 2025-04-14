@@ -16,4 +16,5 @@ Changes
 3. Changed text to keyboard, mouse, and webcam for second row on the home page and product page
 4. Changed the text of the carousel images
 5. Changed the text of the About Us footer and About page
-6. 
+6. Added a login page that takes and email and password
+7. 
