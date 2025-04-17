@@ -17,4 +17,6 @@ Changes
 4. Changed the text of the carousel images
 5. Changed the text of the About Us footer and About page
 6. Added a login page that takes and email and password
-7. 
+7. Added a page for accessories on the website
+8. Fixed issue of Contact Us wrapping in the list when Accessories was added
+9. 
