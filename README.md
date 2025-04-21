@@ -26,4 +26,16 @@ Changes
 13. Redirected the buy now buttons on the carousel to go to their product page like computer goes to computer
 14. Removed some products on the main page to make it smaller and more like other websites
 15. Changed the text to the contact us footer
-16. 
+16. Created 2 custom logos and replaced the header and footer logo on every page
+17. Created a css file to fix an issue and raise the social icons to be closer to the new logo footer image
+18. Removed the See More button on product page since it did nothing provides nothing
+19. Added a line in css to make all product box images the same size to have consistency
+20. Added 2 new rows of products
+21. Added pictures to all the products on the product page
+22. Changed the customer reviews on the main page
+23. Changed the text on the laptop page
+24. Changed the text and image on the accessories page
+25. Changed the text and image on the console page
+26. Changed the year on the copyright footer
+27. Added a location to the shop now button on all pages its on to take you to the product page
+28. 

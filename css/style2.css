@@ -1,0 +1,9 @@
+.social_icon{
+ margin-top: -100px;
+}
+
+.product_box img {
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: fill;
+}
