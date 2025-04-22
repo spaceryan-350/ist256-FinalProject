@@ -41,4 +41,5 @@ Changes
 28. Changed the search icon to a font awesome shopping cart
 29. Fixed an issue where message in the contact fields was typed in
 30. Added required fields for the information in the contact fields, newletter field, and login field
-31. 
+31. Added a order page for ordering the products
+32. 
