@@ -38,4 +38,7 @@ Changes
 25. Changed the text and image on the console page
 26. Changed the year on the copyright footer
 27. Added a location to the shop now button on all pages its on to take you to the product page
-28. 
+28. Changed the search icon to a font awesome shopping cart
+29. Fixed an issue where message in the contact fields was typed in
+30. Added required fields for the information in the contact fields, newletter field, and login field
+31. 

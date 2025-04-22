@@ -30,7 +30,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <script src="jquery.js"></script>
     <link rel="stylesheet" href="css/style2.css">
-
+    <script src="https://kit.fontawesome.com/8d4c28023d.js" crossorigin="anonymous"></script>
 </head>
 <body class="main-layout">
 <!-- loader  -->
@@ -86,7 +86,7 @@
                                 </li>
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="#">
-                                        <i class="fa fa-search" aria-hidden="true"></i></a>
+                                        <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a>
                                 </li>
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="login.html">Login</a>
@@ -436,16 +436,16 @@
                 <form id="request" class="main_form">
                     <div class="row">
                         <div class="col-md-12 ">
-                            <input class="contactus" placeholder="Name" type="type" name="Name">
+                            <input class="contactus" placeholder="Name" type="text" name="Name" required>
                         </div>
                         <div class="col-md-12">
-                            <input class="contactus" placeholder="Email" type="type" name="Email">
+                            <input class="contactus" placeholder="Email" type="email" name="Email" required>
                         </div>
                         <div class="col-md-12">
-                            <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                            <input class="contactus" placeholder="Phone Number" type="tel" name="Phone Number" required>
                         </div>
                         <div class="col-md-12">
-                            <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                            <textarea class="textarea" placeholder="Message" type="type" Message="Name" required></textarea>
                         </div>
                         <div class="col-md-12">
                             <button class="send_btn">Send</button>
@@ -486,7 +486,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <form class="bottom_form">
                         <h3>Newsletter</h3>
-                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <input class="enter" placeholder="Enter your email" type="email" name="Enter your email" required>
                         <button class="sub_btn">subscribe</button>
                     </form>
                 </div>
