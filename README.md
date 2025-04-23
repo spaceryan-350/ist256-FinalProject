@@ -47,4 +47,7 @@ Changes
 34. Dropped hard drive down to the next row on the product page to separate accessories from pc parts
 35. Added a link to the order page when clicking on the shopping cart for every page
 36. Added links to the social media icons at the bottom of the page on all pages
-37. 
+37. Added jquery button on click function to pull json text data and paste onto website for the read more buttons on accessories, console, about, and laptop
+38. Added shop now buttons to accessories, console, about, and laptop that take you to the product page 
+39. Added links to the buttons on the products and home page that takes you to the order page
+40. 
