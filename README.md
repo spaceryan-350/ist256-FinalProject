@@ -42,4 +42,9 @@ Changes
 29. Fixed an issue where message in the contact fields was typed in
 30. Added required fields for the information in the contact fields, newletter field, and login field
 31. Added a order page for ordering the products
-32. 
+32. Changed Console to the top on the product page and created a line to separate the main products from accessories and pc parts
+33. Changed the home page to have the 4 main products
+34. Dropped hard drive down to the next row on the product page to separate accessories from pc parts
+35. Added a link to the order page when clicking on the shopping cart for every page
+36. Added links to the social media icons at the bottom of the page on all pages
+37. 
