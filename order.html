@@ -28,7 +28,11 @@
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-  <script src="jquery.js"></script>
+  <script
+          src="https://code.jquery.com/jquery-3.7.1.js"
+          integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+          crossorigin="anonymous"></script>
+  <script src="js/jquery.js"></script>
   <link rel="stylesheet" href="css/style2.css">
   <script src="https://kit.fontawesome.com/8d4c28023d.js" crossorigin="anonymous"></script>
 </head>
@@ -154,23 +158,24 @@
             <label>Type:
               <input type="radio" name="Console" value="Xbox"/> Xbox
               <input type="radio" name="Console" value="Playstation"/> Playstation
+              <input type="radio" name="Console" value="NintendoSwitch"/> Nintendo Switch
             </label>
           </div>
           <div class="form-group">
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox4" name="Extra"
                      value="Extra Controller">
-              <label class="form-check-label" for="inlineCheckbox1">Extra Controller</label>
+              <label class="form-check-label" for="inlineCheckbox4">Extra Controller</label>
             </div>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox5" name="Extra"
                      value="Headset">
-              <label class="form-check-label" for="inlineCheckbox2">Headset</label>
+              <label class="form-check-label" for="inlineCheckbox5">Headset</label>
             </div>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox6" name="Extra"
                      value="External HardDrive">
-              <label class="form-check-label" for="inlineCheckbox3">External HardDrive</label>
+              <label class="form-check-label" for="inlineCheckbox6">External HardDrive</label>
             </div>
           </div>
           <div class="form-group">
@@ -189,39 +194,167 @@
     <br>
     <hr>
 
-    <div class="container">
-      <h2 align="center">Create A Account For Future Orders!</h2>
-      <hr>
-
-      <div class="row align-items-center">
+    <div class="container text-center">
+      <div class="row">
         <div class="col">
-          <label>First Name:
-            <input type="text" name="First Name" value=""/>
-          </label>
+          <h2>Laptops</h2>
+          <img src="images/laptop.png" alt="laptop" width="200px">
+          <div class="form-group">
+            <label>Type:
+              <input type="radio" name="Type" value="Gaming"/> Gaming
+              <input type="radio" name="Type" value="Work"/> Work
+            </label>
+          </div>
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox7" name="Extra" value="Mouse">
+              <label class="form-check-label" for="inlineCheckbox7">Mouse</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox8" name="Extra"
+                     value="Headset">
+              <label class="form-check-label" for="inlineCheckbox8">Headset</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox9" name="Extra"
+                     value="Microphone">
+              <label class="form-check-label" for="inlineCheckbox9">Microphone</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>OS:</label>
+            <select name="OS">
+              <option value="" Selected></option>
+              <option value="Windows">Windows</option>
+              <option value="Linux">Linux</option>
+              <option value="Mac">Mac</option>
+            </select>
+          </div>
         </div>
         <div class="col">
-          <label>Last Name:
-            <input type="text" name="Last Name" value=""/>
-          </label>
-        </div>
-        <div class="col">
-          <label>Email:
-            <input type="email" name="Email" value=""/>
-          </label>
-        </div>
-        <div class="col">
-          <label>Password:
-            <input type="password" name="Password" value="" minlength="8" maxlength="12"/>
-          </label>
-        </div>
-        <div class="col">
-          <label>Comment:
-            <textarea name="Comment"></textarea>
-          </label>
+          <h2>Tablets</h2>
+          <img src="images/tablets.png" alt="tablet" width="175px">
+          <div class="form-group">
+            <label>Type:
+              <input type="radio" name="Type" value="Xbox"/> Xbox
+              <input type="radio" name="Type" value="Playstation"/> Playstation
+            </label>
+          </div>
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox10" name="Extra"
+                     value="Stylus">
+              <label class="form-check-label" for="inlineCheckbox10">Stylus</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox11" name="Extra"
+                     value="Case">
+              <label class="form-check-label" for="inlineCheckbox11">Case</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox12" name="Extra"
+                     value="Earbuds">
+              <label class="form-check-label" for="inlineCheckbox12">Earbuds</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Storage Size:</label>
+            <select name="Type">
+              <option value="" SELECTED></option>
+              <option value="256GB">256GB</option>
+              <option value="512GB">512GB</option>
+              <option value="1TB">1TB</option>
+            </select>
+          </div>
         </div>
       </div>
-      <div class="col">
-        <input type="submit" name="Submit" value="Submit">
+    </div>
+
+
+    <br>
+    <hr>
+
+    <div class="container text-center">
+        <h2>PC Parts</h2>
+        <img src="images/PCParts.png" alt="pcParts" width="175px">
+        <div class="form-group">
+          <label>CPU:
+            <input type="radio" name="CPU" value="Intel"/> Intel
+            <input type="radio" name="CPU" value="AMD"/> AMD
+          </label>
+        </div>
+        <div class="form-group">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" name="Part" value="Case">
+            <label class="form-check-label" for="inlineCheckbox13">Case</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" name="Part"
+                   value="Motherboard">
+            <label class="form-check-label" for="inlineCheckbox14">Motherboard</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" name="Part"
+                   value="GPU">
+            <label class="form-check-label" for="inlineCheckbox15">GPU</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox16" name="Part"
+                   value="CPUCooler">
+            <label class="form-check-label" for="inlineCheckbox16">CPU Cooler</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox17" name="Part"
+                   value="Fans">
+            <label class="form-check-label" for="inlineCheckbox17">Fans</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox18" name="Part"
+                   value="PSU">
+            <label class="form-check-label" for="inlineCheckbox18">Power Supply</label>
+          </div>
+        </div>
+      <div class="form-group">
+        <label>OS:</label>
+        <select name="OS">
+          <option value="" Selected></option>
+          <option value="Windows">Windows</option>
+          <option value="Linux">Linux</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Ram Size:</label>
+        <select name="Ram">
+          <option value="" Selected></option>
+          <option value="16GB">16GB</option>
+          <option value="32GB">32GB</option>
+          <option value="64GB">64GB</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>HDD Size:</label>
+        <select name="Ram">
+          <option value="" Selected></option>
+          <option value="1TB">1TB</option>
+          <option value="4TB">4TB</option>
+          <option value="8TB">8TB</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>SSD Size:</label>
+        <select name="SSD">
+          <option value="" Selected></option>
+          <option value="500GB">500GB</option>
+          <option value="1TB">1TB</option>
+          <option value="2TB">2TB</option>
+        </select>
+      </div>
+    </div>
+
+    <br>
+    <hr>
+      <div class="col text-center">
+        <input type="submit" name="Order" value="Order" onclick="alert('Ordered')">
         <input type="reset" name="Reset" value="Reset">
       </div>
     </div>

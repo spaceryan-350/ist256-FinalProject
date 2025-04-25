@@ -51,4 +51,5 @@ Changes
 38. Added shop now buttons to accessories, console, about, and laptop that take you to the product page 
 39. Added links to the buttons on the products and home page that takes you to the order page
 40. Added information into the text files so when clicking the read more buttons it pulls the json data that is passages that go more in-depth with the products
-41. 
+41. Added products to the order page to order the products and submit the order
+42. Added alert box to the order button on the order page
