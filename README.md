@@ -50,4 +50,5 @@ Changes
 37. Added jquery button on click function to pull json text data and paste onto website for the read more buttons on accessories, console, about, and laptop
 38. Added shop now buttons to accessories, console, about, and laptop that take you to the product page 
 39. Added links to the buttons on the products and home page that takes you to the order page
-40. 
+40. Added information into the text files so when clicking the read more buttons it pulls the json data that is passages that go more in-depth with the products
+41. 
