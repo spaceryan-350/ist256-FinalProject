@@ -53,3 +53,4 @@ Changes
 40. Added information into the text files so when clicking the read more buttons it pulls the json data that is passages that go more in-depth with the products
 41. Added products to the order page to order the products and submit the order
 42. Added alert box to the order button on the order page
+43. Changed the copyright at the bottom of the site to say it's designed by me
